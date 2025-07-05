@@ -1,2 +1,7 @@
+# Existing
 .env
 node_modules
+
+# Add
+bun.lockb
+.bunfig.toml

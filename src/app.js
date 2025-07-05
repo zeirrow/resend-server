@@ -9,7 +9,7 @@ const app = express();
 // Middlewares
 app.use(
   cors({
-    origin: [`http://localhost:${config.PORT}`, 'https://your-frontend-domain.com'],
+    origin: [`http://localhost:${config.PORT}`, 'https://premium-web-design.vercel.app/'],
     methods: ['POST'],
   })
 );
